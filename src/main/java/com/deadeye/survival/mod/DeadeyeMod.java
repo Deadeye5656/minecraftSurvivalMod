@@ -1,5 +1,6 @@
 package com.deadeye.survival.mod;
 
+import com.deadeye.survival.mod.block.ModBlocks;
 import com.deadeye.survival.mod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTab;
@@ -35,6 +36,7 @@ public class DeadeyeMod {
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -52,6 +54,10 @@ public class DeadeyeMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.DAVITE);
             event.accept(ModItems.RAW_DAVITE);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.DAVITE_BLOCK);
         }
     }
 
