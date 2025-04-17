@@ -2,5 +2,9 @@
   "item.deadeyesurvivalmod.davite": "Davite",
   "item.deadeyesurvivalmod.raw_davite": "Raw Davite",
 
-  "block.deadeyesurvivalmod.davite_block": "Block of Davite"
+  "block.deadeyesurvivalmod.davite_block": "Block of Davite",
+  "block.deadeyesurvivalmod.davite_ore": "Davite Ore",
+  "block.deadeyesurvivalmod.davite_deepslate_ore": "Davite Deepslate Ore",
+
+  "creativetab.deadeyesurvivalmod.deadeye_items": "Deadeye Mod Items"
 }
