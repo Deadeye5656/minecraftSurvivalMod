@@ -24,6 +24,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DAVITE_BLOCK.get());
                         output.accept(ModBlocks.DAVITE_DEEPSLATE_ORE.get());
                         output.accept(ModBlocks.DAVITE_ORE.get());
+                        output.accept(ModItems.CHISEL.get());
                     }).build());
 
     public static void register(IEventBus eventBus){
