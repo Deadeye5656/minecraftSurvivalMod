@@ -4,6 +4,7 @@ import com.deadeye.survival.mod.DeadeyeMod;
 import com.deadeye.survival.mod.item.custom.ChiselItem;
 import com.deadeye.survival.mod.item.custom.FuelItem;
 import com.deadeye.survival.mod.item.custom.HammerItem;
+import com.deadeye.survival.mod.item.custom.ModArmorItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -56,7 +57,7 @@ public class ModItems {
                     .attributes(PickaxeItem.createAttributes(ModToolTiers.DAVITE, 7, -3.5f))));
 
     public static final RegistryObject<Item> DAVITE_HELMET = ITEMS.register("davite_helmet",
-            () -> new ArmorItem(ModArmorMaterials.DAVITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+            () -> new ModArmorItem(ModArmorMaterials.DAVITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
                     new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(18))));
     public static final RegistryObject<Item> DAVITE_CHESTPLATE = ITEMS.register("davite_chestplate",
             () -> new ArmorItem(ModArmorMaterials.DAVITE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
