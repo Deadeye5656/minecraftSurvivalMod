@@ -1,6 +1,7 @@
 package com.deadeye.survival.mod.item.custom;
 
 import com.deadeye.survival.mod.block.ModBlocks;
+import com.deadeye.survival.mod.block.component.ModDataComponentTypes;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvents;
@@ -41,6 +42,10 @@ public class ChiselItem extends Item {
             pTooltipComponents.add(Component.translatable("tooltip.deadeyesurvivalmod.chisel"));
         }
 
+        if(pStack.get(ModDataComponentTypes.COORDINATES.get()) != null) {
+            pTooltipComponents.add(Component.literal("Last Block changed at " + pStack.get(ModDataComponentTypes.COORDINATES.get())));
+        }
+
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
     }
 
@@ -52,9 +57,13 @@ public class ChiselItem extends Item {
         if(CHISEL_MAP.containsKey(clickedBlock)){
             if(!level.isClientSide()){
                 level.setBlockAndUpdate(pContext.getClickedPos(), CHISEL_MAP.get(clickedBlock).defaultBlockState());
+
                 pContext.getItemInHand().hurtAndBreak(1, ((ServerLevel) level), ((ServerPlayer) pContext.getPlayer()),
                         item -> pContext.getPlayer().onEquippedItemBroken(item, EquipmentSlot.MAINHAND));
+
                 level.playSound(null, pContext.getClickedPos(), SoundEvents.GRINDSTONE_USE, SoundSource.BLOCKS);
+
+                pContext.getItemInHand().set(ModDataComponentTypes.COORDINATES.get(), pContext.getClickedPos());
             }
         }
 

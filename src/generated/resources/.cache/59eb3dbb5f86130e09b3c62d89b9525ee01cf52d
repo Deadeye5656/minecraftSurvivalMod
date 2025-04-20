@@ -1,10 +1,11 @@
-// 1.21	2025-04-20T04:15:54.9767412	Loot Tables
+// 1.21	2025-04-20T04:36:11.5778369	Loot Tables
 b52097d7b6701c2207c97c9d4bd240cf8e7988c4 data/deadeyesurvivalmod/loot_table/blocks/davite_block.json
 9bec06a080cc545217e37c0aa154c65d3fd2f989 data/deadeyesurvivalmod/loot_table/blocks/davite_button.json
 aab17d3fd4f9c29e3759a2f2b3f4345dd41535a7 data/deadeyesurvivalmod/loot_table/blocks/davite_deepslate_ore.json
 7b3c762f05111af9e0d60882bd7ed248c4d554e7 data/deadeyesurvivalmod/loot_table/blocks/davite_door.json
 8d6d4736c37bf955e3be6cf5f3308d6a10184d8d data/deadeyesurvivalmod/loot_table/blocks/davite_fence.json
 960dbf4a718e0e49cc24fcc995ede875567af4bf data/deadeyesurvivalmod/loot_table/blocks/davite_fence_gate.json
+c3ad5dd82763fd22dc1ccf792078d6cd87c17969 data/deadeyesurvivalmod/loot_table/blocks/davite_lamp.json
 424ffaf6b0f2b58284acf7483a62fa995111141d data/deadeyesurvivalmod/loot_table/blocks/davite_ore.json
 5f8c875eca11705c932eb3fce5740cd6b996c5a4 data/deadeyesurvivalmod/loot_table/blocks/davite_pressure_plate.json
 884ced78c6de4e467622b261fee9e8e0859364ca data/deadeyesurvivalmod/loot_table/blocks/davite_slab.json

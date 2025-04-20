@@ -1,6 +1,7 @@
 package com.deadeye.survival.mod;
 
 import com.deadeye.survival.mod.block.ModBlocks;
+import com.deadeye.survival.mod.block.component.ModDataComponentTypes;
 import com.deadeye.survival.mod.item.ModCreativeModeTabs;
 import com.deadeye.survival.mod.item.ModItems;
 import com.mojang.logging.LogUtils;
@@ -39,6 +40,8 @@ public class DeadeyeMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModDataComponentTypes.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
