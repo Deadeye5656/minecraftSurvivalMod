@@ -33,6 +33,20 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
                 block -> createOreDrop(ModBlocks.DAVITE_ORE.get(), ModItems.RAW_DAVITE.get()));
         this.add(ModBlocks.DAVITE_DEEPSLATE_ORE.get(),
                 block -> createMultipleOreDrops(ModBlocks.DAVITE_DEEPSLATE_ORE.get(), ModItems.RAW_DAVITE.get(), 2, 6));
+
+        dropSelf(ModBlocks.DAVITE_STAIRS.get());
+        this.add(ModBlocks.DAVITE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.DAVITE_SLAB.get()));
+
+        dropSelf(ModBlocks.DAVITE_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.DAVITE_BUTTON.get());
+        dropSelf(ModBlocks.DAVITE_FENCE.get());
+        dropSelf(ModBlocks.DAVITE_FENCE_GATE.get());
+        dropSelf(ModBlocks.DAVITE_WALL.get());
+        dropSelf(ModBlocks.DAVITE_TRAPDOOR.get());
+
+        this.add(ModBlocks.DAVITE_DOOR.get(),
+                block -> createDoorTable(ModBlocks.DAVITE_DOOR.get()));
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

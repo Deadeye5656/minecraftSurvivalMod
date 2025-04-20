@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "davite",
+  "ingredients": [
+    {
+      "item": "deadeyesurvivalmod:davite"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "deadeyesurvivalmod:davite_button"
+  }
+}

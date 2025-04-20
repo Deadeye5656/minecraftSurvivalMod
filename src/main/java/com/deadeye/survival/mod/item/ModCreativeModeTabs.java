@@ -28,6 +28,15 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.MAGIC_BLOCK.get());
                         output.accept(ModItems.KOHLRABI.get());
                         output.accept(ModItems.AURORA_ASHES.get());
+                        output.accept(ModBlocks.DAVITE_STAIRS.get());
+                        output.accept(ModBlocks.DAVITE_SLAB.get());
+                        output.accept(ModBlocks.DAVITE_PRESSURE_PLATE.get());
+                        output.accept(ModBlocks.DAVITE_BUTTON.get());
+                        output.accept(ModBlocks.DAVITE_FENCE.get());
+                        output.accept(ModBlocks.DAVITE_FENCE_GATE.get());
+                        output.accept(ModBlocks.DAVITE_WALL.get());
+                        output.accept(ModBlocks.DAVITE_DOOR.get());
+                        output.accept(ModBlocks.DAVITE_TRAPDOOR.get());
                     }).build());
 
     public static void register(IEventBus eventBus){

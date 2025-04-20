@@ -26,5 +26,9 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
         tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.DAVITE_DEEPSLATE_ORE.get());
+
+        tag(BlockTags.FENCES).add(ModBlocks.DAVITE_FENCE.get());
+        tag(BlockTags.FENCE_GATES).add(ModBlocks.DAVITE_FENCE_GATE.get());
+        tag(BlockTags.WALLS).add(ModBlocks.DAVITE_WALL.get());
     }
 }

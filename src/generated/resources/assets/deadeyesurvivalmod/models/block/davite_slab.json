@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "deadeyesurvivalmod:block/davite_block",
+    "side": "deadeyesurvivalmod:block/davite_block",
+    "top": "deadeyesurvivalmod:block/davite_block"
+  }
+}

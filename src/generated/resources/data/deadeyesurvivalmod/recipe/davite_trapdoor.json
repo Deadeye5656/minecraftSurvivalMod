@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "davite",
+  "key": {
+    "#": {
+      "item": "deadeyesurvivalmod:davite"
+    }
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "id": "deadeyesurvivalmod:davite_trapdoor"
+  }
+}

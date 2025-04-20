@@ -42,6 +42,25 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreSmelting(pRecipeOutput, DAVITE_SMELTABLES, RecipeCategory.MISC, ModItems.DAVITE.get(), 0.25f, 200, "davite");
         oreBlasting(pRecipeOutput, DAVITE_SMELTABLES, RecipeCategory.MISC, ModItems.DAVITE.get(), 0.25f, 100, "davite");
 
+        stairBuilder(ModBlocks.DAVITE_STAIRS.get(), Ingredient.of(ModItems.DAVITE.get())).group("davite")
+                .unlockedBy(getHasName(ModItems.DAVITE.get()), has(ModItems.DAVITE.get())).save(pRecipeOutput);
+        slab(pRecipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DAVITE_SLAB.get(), ModItems.DAVITE.get());
+
+        buttonBuilder(ModBlocks.DAVITE_BUTTON.get(), Ingredient.of(ModItems.DAVITE.get())).group("davite")
+                .unlockedBy(getHasName(ModItems.DAVITE.get()), has(ModItems.DAVITE.get())).save(pRecipeOutput);
+        pressurePlate(pRecipeOutput, ModBlocks.DAVITE_PRESSURE_PLATE.get(), ModItems.DAVITE.get());
+
+        fenceBuilder(ModBlocks.DAVITE_FENCE.get(), Ingredient.of(ModItems.DAVITE.get())).group("davite")
+                .unlockedBy(getHasName(ModItems.DAVITE.get()), has(ModItems.DAVITE.get())).save(pRecipeOutput);
+        fenceGateBuilder(ModBlocks.DAVITE_FENCE_GATE.get(), Ingredient.of(ModItems.DAVITE.get())).group("davite")
+                .unlockedBy(getHasName(ModItems.DAVITE.get()), has(ModItems.DAVITE.get())).save(pRecipeOutput);
+        wall(pRecipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DAVITE_WALL.get(), ModItems.DAVITE.get());
+
+        doorBuilder(ModBlocks.DAVITE_DOOR.get(), Ingredient.of(ModItems.DAVITE.get())).group("davite")
+                .unlockedBy(getHasName(ModItems.DAVITE.get()), has(ModItems.DAVITE.get())).save(pRecipeOutput);
+        trapdoorBuilder(ModBlocks.DAVITE_TRAPDOOR.get(), Ingredient.of(ModItems.DAVITE.get())).group("davite")
+                .unlockedBy(getHasName(ModItems.DAVITE.get()), has(ModItems.DAVITE.get())).save(pRecipeOutput);
+
     }
 
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,

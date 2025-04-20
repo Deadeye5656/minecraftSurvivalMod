@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "davite",
+  "key": {
+    "#": {
+      "item": "deadeyesurvivalmod:davite"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "deadeyesurvivalmod:davite_stairs"
+  }
+}

@@ -9,6 +9,19 @@
 
   "block.deadeyesurvivalmod.magic_block": "Magic Block",
 
+  "block.deadeyesurvivalmod.davite_stairs": "Davite Stairs",
+  "block.deadeyesurvivalmod.davite_slab": "Davite Slab",
+
+  "block.deadeyesurvivalmod.davite_button": "Davite Button",
+  "block.deadeyesurvivalmod.davite_pressure_plate": "Davite Pressure Plate",
+
+  "block.deadeyesurvivalmod.davite_fence": "Davite Fence",
+  "block.deadeyesurvivalmod.davite_fence_gate": "Davite Fence Gate",
+  "block.deadeyesurvivalmod.davite_wall": "Davite Wall",
+
+  "block.deadeyesurvivalmod.davite_door": "Davite Door",
+  "block.deadeyesurvivalmod.davite_trapdoor": "Davite Trapdoor",
+
   "item.deadeyesurvivalmod.kohlrabi": "Kohlrabi",
   "item.deadeyesurvivalmod.aurora_ashes": "Aurora Ashes",
 

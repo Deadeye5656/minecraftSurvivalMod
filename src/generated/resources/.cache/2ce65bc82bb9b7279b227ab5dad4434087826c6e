@@ -1,3 +1,6 @@
-// 1.21	2025-04-20T03:39:41.333594	Tags for minecraft:block mod id deadeyesurvivalmod
+// 1.21	2025-04-20T04:15:54.9767412	Tags for minecraft:block mod id deadeyesurvivalmod
+fe1e8cc1e1a254aa7620a277a5bf6ca8e1de329a data/minecraft/tags/block/fences.json
+4659f7f8f614f4ee7bc1ab2cb77dac891395fda9 data/minecraft/tags/block/fence_gates.json
 780deb86ac2682eead9780c3ec7074d9e7e65398 data/minecraft/tags/block/mineable/pickaxe.json
 dc874e06f3b9ddd22befced7731b2fad1665a46f data/minecraft/tags/block/needs_iron_tool.json
+f037af4fbf479b38539f42dd9043e9464ae27cbc data/minecraft/tags/block/walls.json
