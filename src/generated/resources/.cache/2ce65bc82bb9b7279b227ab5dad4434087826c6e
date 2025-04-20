@@ -1,0 +1,3 @@
+// 1.21	2025-04-20T03:39:41.333594	Tags for minecraft:block mod id deadeyesurvivalmod
+780deb86ac2682eead9780c3ec7074d9e7e65398 data/minecraft/tags/block/mineable/pickaxe.json
+dc874e06f3b9ddd22befced7731b2fad1665a46f data/minecraft/tags/block/needs_iron_tool.json

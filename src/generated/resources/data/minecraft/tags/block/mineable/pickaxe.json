@@ -1,8 +1,8 @@
 {
-  "replace": false,
   "values": [
     "deadeyesurvivalmod:davite_block",
     "deadeyesurvivalmod:davite_ore",
-    "deadeyesurvivalmod:davite_deepslate_ore"
+    "deadeyesurvivalmod:davite_deepslate_ore",
+    "deadeyesurvivalmod:magic_block"
   ]
 }
