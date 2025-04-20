@@ -26,6 +26,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DAVITE_ORE.get());
                         output.accept(ModItems.CHISEL.get());
                         output.accept(ModBlocks.MAGIC_BLOCK.get());
+                        output.accept(ModItems.KOHLRABI.get());
+                        output.accept(ModItems.AURORA_ASHES.get());
                     }).build());
 
     public static void register(IEventBus eventBus){
