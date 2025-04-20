@@ -1,6 +1,7 @@
 package com.deadeye.survival.mod.block;
 
 import com.deadeye.survival.mod.DeadeyeMod;
+import com.deadeye.survival.mod.block.custom.MagicBlock;
 import com.deadeye.survival.mod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -30,6 +31,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> DAVITE_DEEPSLATE_ORE = registerBlock("davite_deepslate_ore",
             () -> new DropExperienceBlock(UniformInt.of(3, 6), BlockBehaviour.Properties.of()
                     .strength(5f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+
+    public static final RegistryObject<Block> MAGIC_BLOCK = registerBlock("magic_block",
+            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
