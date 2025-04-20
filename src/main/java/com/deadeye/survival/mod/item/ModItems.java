@@ -3,6 +3,7 @@ package com.deadeye.survival.mod.item;
 import com.deadeye.survival.mod.DeadeyeMod;
 import com.deadeye.survival.mod.item.custom.ChiselItem;
 import com.deadeye.survival.mod.item.custom.FuelItem;
+import com.deadeye.survival.mod.item.custom.HammerItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -50,6 +51,9 @@ public class ModItems {
     public static final RegistryObject<Item> DAVITE_HOE = ITEMS.register("davite_hoe",
             () -> new HoeItem(ModToolTiers.DAVITE, new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTiers.DAVITE, 0, -3.0f))));
+    public static final RegistryObject<Item> DAVITE_HAMMER = ITEMS.register("davite_hammer",
+            () -> new HammerItem(ModToolTiers.DAVITE, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.DAVITE, 7, -3.5f))));
 
 
     public static void register(IEventBus eventBus){

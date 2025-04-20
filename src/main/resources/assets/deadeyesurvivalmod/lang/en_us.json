@@ -30,6 +30,7 @@
   "item.deadeyesurvivalmod.davite_shovel": "Davite Shovel",
   "item.deadeyesurvivalmod.davite_axe": "Davite Axe",
   "item.deadeyesurvivalmod.davite_hoe": "Davite Hoe",
+  "item.deadeyesurvivalmod.davite_hammer": "Davite Hammer",
 
   "creativetab.deadeyesurvivalmod.deadeye_items": "Deadeye Mod Items",
 
@@ -38,5 +39,5 @@
   "tooltip.deadeyesurvivalmod.chisel.shift_down": "This Item changes certain Blocks",
   "tooltip.deadeyesurvivalmod.chisel": "Press §eShift§r for more Information!",
 
-  "tooltip.deadeyesurvivalmod.kohlrabi": "This tastes GREAT!"
+  "tooltip.deadeyesurvivalmod.kohlrabi": "This tastes GREAT!",
 }

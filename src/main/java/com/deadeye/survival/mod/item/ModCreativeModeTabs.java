@@ -43,6 +43,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.DAVITE_SHOVEL.get());
                         output.accept(ModItems.DAVITE_AXE.get());
                         output.accept(ModItems.DAVITE_HOE.get());
+                        output.accept(ModItems.DAVITE_HAMMER.get());
                     }).build());
 
     public static void register(IEventBus eventBus){

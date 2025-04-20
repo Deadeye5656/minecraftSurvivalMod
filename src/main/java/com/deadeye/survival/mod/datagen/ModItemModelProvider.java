@@ -37,6 +37,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.DAVITE_SHOVEL);
         handheldItem(ModItems.DAVITE_AXE);
         handheldItem(ModItems.DAVITE_HOE);
+        handheldItem(ModItems.DAVITE_HAMMER);
     }
 
     private ItemModelBuilder handheldItem(RegistryObject<Item> item) {

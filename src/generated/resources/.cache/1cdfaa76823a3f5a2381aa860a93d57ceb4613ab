@@ -1,4 +1,4 @@
-// 1.21	2025-04-20T05:07:15.4931082	Item Models: deadeyesurvivalmod
+// 1.21	2025-04-20T15:46:40.231099	Item Models: deadeyesurvivalmod
 cda8ab1d7accd13e08f4718016cf6277525a5907 assets/deadeyesurvivalmod/models/item/aurora_ashes.json
 d0713e72f474fb90d441249e288e159861adf465 assets/deadeyesurvivalmod/models/item/chisel.json
 5f5360741755e406a37a366a6e325a962035f3eb assets/deadeyesurvivalmod/models/item/davite.json
@@ -6,6 +6,7 @@ d0713e72f474fb90d441249e288e159861adf465 assets/deadeyesurvivalmod/models/item/c
 4d3097b962403c87328f918fa0c79a31070dac90 assets/deadeyesurvivalmod/models/item/davite_button.json
 1dc220ecb429e041cae2f479537ac144ad53ca9e assets/deadeyesurvivalmod/models/item/davite_door.json
 555251365b9a5418d4f1554815ea659f2bc88f4e assets/deadeyesurvivalmod/models/item/davite_fence.json
+69c3785ffa0b1c06530fb9beed6ac6bff177e7b9 assets/deadeyesurvivalmod/models/item/davite_hammer.json
 3d4ff50b6e8ae82b53ec542a12766e0543dd3701 assets/deadeyesurvivalmod/models/item/davite_hoe.json
 f9a56cf2e9c9f8c939b12786ac459c4ea15062b6 assets/deadeyesurvivalmod/models/item/davite_pickaxe.json
 38b2725ba8db1885f5513c79ca2da5d359a78f6f assets/deadeyesurvivalmod/models/item/davite_shovel.json
