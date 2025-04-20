@@ -44,6 +44,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.DAVITE_AXE.get());
                         output.accept(ModItems.DAVITE_HOE.get());
                         output.accept(ModItems.DAVITE_HAMMER.get());
+                        output.accept(ModItems.DAVITE_HELMET.get());
+                        output.accept(ModItems.DAVITE_CHESTPLATE.get());
+                        output.accept(ModItems.DAVITE_LEGGINGS.get());
+                        output.accept(ModItems.DAVITE_BOOTS.get());
                     }).build());
 
     public static void register(IEventBus eventBus){

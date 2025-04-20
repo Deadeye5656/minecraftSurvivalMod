@@ -1,2 +1,3 @@
-// 1.21	2025-04-20T03:39:41.3325945	Tags for minecraft:item mod id deadeyesurvivalmod
+// 1.21	2025-04-20T16:17:46.5196686	Tags for minecraft:item mod id deadeyesurvivalmod
 33dd000e6d9da40c89cd740485b64763c5c5b68c data/deadeyesurvivalmod/tags/item/transformable_items.json
+a5f43a7e9ed4f50c1fc5a783fff39f9d7230bc91 data/minecraft/tags/item/trimmable_armor.json

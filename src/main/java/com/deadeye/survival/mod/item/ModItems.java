@@ -55,6 +55,19 @@ public class ModItems {
             () -> new HammerItem(ModToolTiers.DAVITE, new Item.Properties()
                     .attributes(PickaxeItem.createAttributes(ModToolTiers.DAVITE, 7, -3.5f))));
 
+    public static final RegistryObject<Item> DAVITE_HELMET = ITEMS.register("davite_helmet",
+            () -> new ArmorItem(ModArmorMaterials.DAVITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(18))));
+    public static final RegistryObject<Item> DAVITE_CHESTPLATE = ITEMS.register("davite_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.DAVITE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(18))));
+    public static final RegistryObject<Item> DAVITE_LEGGINGS = ITEMS.register("davite_leggings",
+            () -> new ArmorItem(ModArmorMaterials.DAVITE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(18))));
+    public static final RegistryObject<Item> DAVITE_BOOTS = ITEMS.register("davite_boots",
+            () -> new ArmorItem(ModArmorMaterials.DAVITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(18))));
+
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
