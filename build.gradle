@@ -214,3 +214,10 @@ sourceSets.each {
     it.output.resourcesDir = dir
     it.java.destinationDirectory = dir
 }
+
+tasks.named('clean') {
+    doFirst {
+        println "Cleaning build directory forcefully..."
+        delete file('build')
+    }
+}
