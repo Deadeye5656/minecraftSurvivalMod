@@ -45,7 +45,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.DAVITE.get());
         basicItem(ModItems.RAW_DAVITE.get());
 
-        basicItem(ModItems.CHISEL.get());
+//        basicItem(ModItems.CHISEL.get());
         basicItem(ModItems.KOHLRABI.get());
         basicItem(ModItems.AURORA_ASHES.get());
         buttonItem(ModBlocks.DAVITE_BUTTON, ModBlocks.DAVITE_BLOCK);

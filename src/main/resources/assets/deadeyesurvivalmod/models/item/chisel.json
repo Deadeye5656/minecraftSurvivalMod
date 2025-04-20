@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "deadeyesurvivalmod:item/chisel"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "deadeyesurvivalmod:used": 1
+      },
+      "model": "deadeyesurvivalmod:item/chisel_used"
+    }
+  ]
+}

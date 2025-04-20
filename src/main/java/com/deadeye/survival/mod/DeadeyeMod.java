@@ -4,6 +4,7 @@ import com.deadeye.survival.mod.block.ModBlocks;
 import com.deadeye.survival.mod.block.component.ModDataComponentTypes;
 import com.deadeye.survival.mod.item.ModCreativeModeTabs;
 import com.deadeye.survival.mod.item.ModItems;
+import com.deadeye.survival.mod.util.ModItemProperties;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -80,7 +81,7 @@ public class DeadeyeMod {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-
+            ModItemProperties.addCustomItemProperties();
         }
     }
 }
