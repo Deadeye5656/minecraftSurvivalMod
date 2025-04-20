@@ -10,6 +10,8 @@ import net.minecraft.world.level.block.Block;
 
 public class ModTags {
     public static class Blocks {
+        public static final TagKey<Block> NEEDS_DAVITE_TOOL = createTag("needs_davite_tool");
+        public static final TagKey<Block> INCORRECT_FOR_DAVITE_TOOL = createTag("incorrect_for_davite_tool");
 
         private static TagKey<Block> createTag(String name) {
             return BlockTags.create(ResourceLocation.fromNamespaceAndPath(DeadeyeMod.MOD_ID, name));

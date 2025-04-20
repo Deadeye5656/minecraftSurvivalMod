@@ -2,9 +2,11 @@ package com.deadeye.survival.mod.datagen;
 
 import com.deadeye.survival.mod.DeadeyeMod;
 import com.deadeye.survival.mod.block.ModBlocks;
+import com.deadeye.survival.mod.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
@@ -30,5 +32,13 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(BlockTags.FENCES).add(ModBlocks.DAVITE_FENCE.get());
         tag(BlockTags.FENCE_GATES).add(ModBlocks.DAVITE_FENCE_GATE.get());
         tag(BlockTags.WALLS).add(ModBlocks.DAVITE_WALL.get());
+
+        tag(ModTags.Blocks.NEEDS_DAVITE_TOOL)
+                .add(Blocks.OBSIDIAN)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+
+        tag(ModTags.Blocks.INCORRECT_FOR_DAVITE_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL)
+                .remove(ModTags.Blocks.NEEDS_DAVITE_TOOL);
     }
 }

@@ -25,6 +25,12 @@
   "item.deadeyesurvivalmod.kohlrabi": "Kohlrabi",
   "item.deadeyesurvivalmod.aurora_ashes": "Aurora Ashes",
 
+  "item.deadeyesurvivalmod.davite_sword": "Davite Sword",
+  "item.deadeyesurvivalmod.davite_pickaxe": "Davite Pickaxe",
+  "item.deadeyesurvivalmod.davite_shovel": "Davite Shovel",
+  "item.deadeyesurvivalmod.davite_axe": "Davite Axe",
+  "item.deadeyesurvivalmod.davite_hoe": "Davite Hoe",
+
   "creativetab.deadeyesurvivalmod.deadeye_items": "Deadeye Mod Items",
 
   "tooltip.deadeyesurvivalmod.magic_block.tooltip": "This Block is quite §9MAGICAL§r",

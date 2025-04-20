@@ -5,6 +5,7 @@ import com.deadeye.survival.mod.block.ModBlocks;
 import com.deadeye.survival.mod.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
@@ -30,8 +31,19 @@ public class ModItemModelProvider extends ItemModelProvider {
         wallItem(ModBlocks.DAVITE_WALL, ModBlocks.DAVITE_BLOCK);
 
         simpleBlockItem(ModBlocks.DAVITE_DOOR);
+
+        handheldItem(ModItems.DAVITE_SWORD);
+        handheldItem(ModItems.DAVITE_PICKAXE);
+        handheldItem(ModItems.DAVITE_SHOVEL);
+        handheldItem(ModItems.DAVITE_AXE);
+        handheldItem(ModItems.DAVITE_HOE);
     }
 
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                ResourceLocation.parse("item/handheld")).texture("layer0",
+                ResourceLocation.fromNamespaceAndPath(DeadeyeMod.MOD_ID,"item/" + item.getId().getPath()));
+    }
     public void buttonItem(RegistryObject<? extends Block> block, RegistryObject<Block> baseBlock) {
         this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/button_inventory"))
                 .texture("texture",  ResourceLocation.fromNamespaceAndPath(DeadeyeMod.MOD_ID,

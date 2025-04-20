@@ -38,6 +38,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DAVITE_DOOR.get());
                         output.accept(ModBlocks.DAVITE_TRAPDOOR.get());
                         output.accept(ModBlocks.DAVITE_LAMP.get());
+                        output.accept(ModItems.DAVITE_SWORD.get());
+                        output.accept(ModItems.DAVITE_PICKAXE.get());
+                        output.accept(ModItems.DAVITE_SHOVEL.get());
+                        output.accept(ModItems.DAVITE_AXE.get());
+                        output.accept(ModItems.DAVITE_HOE.get());
                     }).build());
 
     public static void register(IEventBus eventBus){
