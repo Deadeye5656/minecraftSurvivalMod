@@ -2,9 +2,12 @@ package com.deadeye.survival.mod.datagen;
 
 import com.deadeye.survival.mod.DeadeyeMod;
 import com.deadeye.survival.mod.block.ModBlocks;
+import com.deadeye.survival.mod.block.custom.DaviteLampBlock;
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
+import net.minecraftforge.client.model.generators.ConfiguredModel;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -42,6 +45,22 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.DAVITE_PRESSURE_PLATE);
         blockItem(ModBlocks.DAVITE_FENCE_GATE);
         blockItem(ModBlocks.DAVITE_TRAPDOOR, "_bottom");
+
+        customLamp();
+    }
+
+    private void customLamp() {
+        getVariantBuilder(ModBlocks.DAVITE_LAMP.get()).forAllStates(state -> {
+            if(state.getValue(DaviteLampBlock.CLICKED)) {
+                return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll("davite_lamp_on",
+                        ResourceLocation.fromNamespaceAndPath(DeadeyeMod.MOD_ID, "block/" + "davite_lamp_on")))};
+            } else {
+                return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll("davite_lamp_off",
+                        ResourceLocation.fromNamespaceAndPath(DeadeyeMod.MOD_ID, "block/" + "davite_lamp_off")))};
+            }
+        });
+        simpleBlockItem(ModBlocks.DAVITE_LAMP.get(), models().cubeAll("davite_lamp_on",
+                ResourceLocation.fromNamespaceAndPath(DeadeyeMod.MOD_ID, "block/" + "davite_lamp_on")));
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "deadeyesurvivalmod:block/davite_lamp_off"
+    },
+    "clicked=true": {
+      "model": "deadeyesurvivalmod:block/davite_lamp_on"
+    }
+  }
+}

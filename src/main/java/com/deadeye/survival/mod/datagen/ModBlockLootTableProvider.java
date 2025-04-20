@@ -47,6 +47,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
         this.add(ModBlocks.DAVITE_DOOR.get(),
                 block -> createDoorTable(ModBlocks.DAVITE_DOOR.get()));
+
+        dropSelf(ModBlocks.DAVITE_LAMP.get());
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

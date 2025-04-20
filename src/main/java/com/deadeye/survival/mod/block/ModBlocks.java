@@ -1,6 +1,7 @@
 package com.deadeye.survival.mod.block;
 
 import com.deadeye.survival.mod.DeadeyeMod;
+import com.deadeye.survival.mod.block.custom.DaviteLampBlock;
 import com.deadeye.survival.mod.block.custom.MagicBlock;
 import com.deadeye.survival.mod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -58,6 +59,10 @@ public class ModBlocks {
             () -> new DoorBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().noOcclusion()));
     public static final RegistryObject<TrapDoorBlock> DAVITE_TRAPDOOR = registerBlock("davite_trapdoor",
             () -> new TrapDoorBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().noOcclusion()));
+
+    public static final RegistryObject<Block> DAVITE_LAMP = registerBlock("davite_lamp",
+            () -> new DaviteLampBlock(BlockBehaviour.Properties.of().strength(3f)
+                    .lightLevel(state -> state.getValue(DaviteLampBlock.CLICKED) ? 15 : 0)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

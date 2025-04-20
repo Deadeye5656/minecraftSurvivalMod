@@ -37,6 +37,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DAVITE_WALL.get());
                         output.accept(ModBlocks.DAVITE_DOOR.get());
                         output.accept(ModBlocks.DAVITE_TRAPDOOR.get());
+                        output.accept(ModBlocks.DAVITE_LAMP.get());
                     }).build());
 
     public static void register(IEventBus eventBus){
