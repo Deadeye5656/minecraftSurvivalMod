@@ -12,5 +12,12 @@
   "item.deadeyesurvivalmod.kohlrabi": "Kohlrabi",
   "item.deadeyesurvivalmod.aurora_ashes": "Aurora Ashes",
 
-  "creativetab.deadeyesurvivalmod.deadeye_items": "Deadeye Mod Items"
+  "creativetab.deadeyesurvivalmod.deadeye_items": "Deadeye Mod Items",
+
+  "tooltip.deadeyesurvivalmod.magic_block.tooltip": "This Block is quite §9MAGICAL§r",
+
+  "tooltip.deadeyesurvivalmod.chisel.shift_down": "This Item changes certain Blocks",
+  "tooltip.deadeyesurvivalmod.chisel": "Press §eShift§r for more Information!",
+
+  "tooltip.deadeyesurvivalmod.kohlrabi": "This tastes GREAT!"
 }
