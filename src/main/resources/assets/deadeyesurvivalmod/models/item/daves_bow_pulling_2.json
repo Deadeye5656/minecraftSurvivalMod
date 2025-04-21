@@ -1,0 +1,6 @@
+{
+    "parent": "deadeyesurvivalmod:item/daves_bow",
+    "textures": {
+        "layer0": "deadeyesurvivalmod:item/daves_bow_pulling_2"
+    }
+}

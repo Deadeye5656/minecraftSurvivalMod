@@ -69,6 +69,10 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.DAVITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
                     new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(18))));
 
+    public static final RegistryObject<Item> DAVES_BOW = ITEMS.register("daves_bow",
+            () -> new BowItem(new Item.Properties().durability(500)));
+
+
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

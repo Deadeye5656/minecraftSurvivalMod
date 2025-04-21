@@ -48,6 +48,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.DAVITE_CHESTPLATE.get());
                         output.accept(ModItems.DAVITE_LEGGINGS.get());
                         output.accept(ModItems.DAVITE_BOOTS.get());
+                        output.accept(ModItems.DAVES_BOW.get());
                     }).build());
 
     public static void register(IEventBus eventBus){
