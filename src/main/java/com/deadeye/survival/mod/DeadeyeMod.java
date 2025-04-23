@@ -4,6 +4,7 @@ import com.deadeye.survival.mod.block.ModBlocks;
 import com.deadeye.survival.mod.block.component.ModDataComponentTypes;
 import com.deadeye.survival.mod.item.ModCreativeModeTabs;
 import com.deadeye.survival.mod.item.ModItems;
+import com.deadeye.survival.mod.sound.ModSounds;
 import com.deadeye.survival.mod.util.ModItemProperties;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -43,6 +44,7 @@ public class DeadeyeMod {
         ModBlocks.register(modEventBus);
 
         ModDataComponentTypes.register(modEventBus);
+        ModSounds.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

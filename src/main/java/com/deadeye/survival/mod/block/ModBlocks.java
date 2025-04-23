@@ -4,6 +4,7 @@ import com.deadeye.survival.mod.DeadeyeMod;
 import com.deadeye.survival.mod.block.custom.DaviteLampBlock;
 import com.deadeye.survival.mod.block.custom.MagicBlock;
 import com.deadeye.survival.mod.item.ModItems;
+import com.deadeye.survival.mod.sound.ModSounds;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -34,7 +35,7 @@ public class ModBlocks {
                     .strength(5f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
     public static final RegistryObject<Block> MAGIC_BLOCK = registerBlock("magic_block",
-            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).noLootTable()));
+            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).noLootTable().sound(ModSounds.MAGIC_BLOCK_SOUNDS)));
 
     public static final RegistryObject<StairBlock> DAVITE_STAIRS = registerBlock("davite_stairs",
             () -> new StairBlock(ModBlocks.DAVITE_BLOCK.get().defaultBlockState(),
