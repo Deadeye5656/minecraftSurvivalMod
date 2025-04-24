@@ -2,6 +2,7 @@ package com.deadeye.survival.mod;
 
 import com.deadeye.survival.mod.block.ModBlocks;
 import com.deadeye.survival.mod.block.component.ModDataComponentTypes;
+import com.deadeye.survival.mod.effect.ModEffects;
 import com.deadeye.survival.mod.item.ModCreativeModeTabs;
 import com.deadeye.survival.mod.item.ModItems;
 import com.deadeye.survival.mod.sound.ModSounds;
@@ -45,6 +46,8 @@ public class DeadeyeMod {
 
         ModDataComponentTypes.register(modEventBus);
         ModSounds.register(modEventBus);
+        ModEffects.register(modEventBus);
+
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
