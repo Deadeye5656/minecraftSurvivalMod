@@ -1,8 +1,0 @@
-// 1.21	2025-04-20T05:07:15.4910832	Tags for minecraft:block mod id deadeyesurvivalmod
-c63751308ff1c370d0699aeb2070fb6f914b14a3 data/deadeyesurvivalmod/tags/block/incorrect_for_davite_tool.json
-3f6b8bf958e38d2ba5ca4e089b848d89eddca410 data/deadeyesurvivalmod/tags/block/needs_davite_tool.json
-fe1e8cc1e1a254aa7620a277a5bf6ca8e1de329a data/minecraft/tags/block/fences.json
-4659f7f8f614f4ee7bc1ab2cb77dac891395fda9 data/minecraft/tags/block/fence_gates.json
-780deb86ac2682eead9780c3ec7074d9e7e65398 data/minecraft/tags/block/mineable/pickaxe.json
-dc874e06f3b9ddd22befced7731b2fad1665a46f data/minecraft/tags/block/needs_iron_tool.json
-f037af4fbf479b38539f42dd9043e9464ae27cbc data/minecraft/tags/block/walls.json

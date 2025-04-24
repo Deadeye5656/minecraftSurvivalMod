@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/button_inventory",
-  "textures": {
-    "texture": "deadeyesurvivalmod:block/davite_block"
-  }
-}
