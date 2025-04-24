@@ -1,6 +1,7 @@
 package com.deadeye.survival.mod.item;
 
 import com.deadeye.survival.mod.DeadeyeMod;
+import com.deadeye.survival.mod.block.ModBlocks;
 import com.deadeye.survival.mod.item.custom.ChiselItem;
 import com.deadeye.survival.mod.item.custom.FuelItem;
 import com.deadeye.survival.mod.item.custom.HammerItem;
@@ -34,6 +35,10 @@ public class ModItems {
                     super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
                 }
             });
+
+    public static final RegistryObject<Item> KOHLRABI_SEEDS = ITEMS.register("kohlrabi_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.KOHLRABI_CROP.get(), new Item.Properties()));
+
     public static final RegistryObject<Item> AURORA_ASHES = ITEMS.register("aurora_ashes",
             () -> new FuelItem(new Item.Properties(), 1200));
 

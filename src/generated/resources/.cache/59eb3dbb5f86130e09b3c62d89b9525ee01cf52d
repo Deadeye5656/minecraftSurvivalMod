@@ -1,4 +1,4 @@
-// 1.21	2025-04-20T04:36:11.5778369	Loot Tables
+// 1.21	2025-04-23T22:14:47.3967354	Loot Tables
 b52097d7b6701c2207c97c9d4bd240cf8e7988c4 data/deadeyesurvivalmod/loot_table/blocks/davite_block.json
 9bec06a080cc545217e37c0aa154c65d3fd2f989 data/deadeyesurvivalmod/loot_table/blocks/davite_button.json
 aab17d3fd4f9c29e3759a2f2b3f4345dd41535a7 data/deadeyesurvivalmod/loot_table/blocks/davite_deepslate_ore.json
@@ -12,3 +12,4 @@ c3ad5dd82763fd22dc1ccf792078d6cd87c17969 data/deadeyesurvivalmod/loot_table/bloc
 1879345d9535e1a8b865a68fedf83ce35fe06d98 data/deadeyesurvivalmod/loot_table/blocks/davite_stairs.json
 17dc89247124f85ab87e5dffb38ee5cf26466863 data/deadeyesurvivalmod/loot_table/blocks/davite_trapdoor.json
 475ab591f2cdcba57fa2b688c314b55e85a463cf data/deadeyesurvivalmod/loot_table/blocks/davite_wall.json
+0afb3f5808207a508972b2d3370e1fad653a852d data/deadeyesurvivalmod/loot_table/blocks/kohlrabi_crop.json

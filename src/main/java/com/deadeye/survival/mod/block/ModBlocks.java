@@ -2,6 +2,7 @@ package com.deadeye.survival.mod.block;
 
 import com.deadeye.survival.mod.DeadeyeMod;
 import com.deadeye.survival.mod.block.custom.DaviteLampBlock;
+import com.deadeye.survival.mod.block.custom.KohlrabiCropBlock;
 import com.deadeye.survival.mod.block.custom.MagicBlock;
 import com.deadeye.survival.mod.item.ModItems;
 import com.deadeye.survival.mod.sound.ModSounds;
@@ -64,6 +65,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> DAVITE_LAMP = registerBlock("davite_lamp",
             () -> new DaviteLampBlock(BlockBehaviour.Properties.of().strength(3f)
                     .lightLevel(state -> state.getValue(DaviteLampBlock.CLICKED) ? 15 : 0)));
+
+    public static final RegistryObject<Block> KOHLRABI_CROP = BLOCKS.register("kohlrabi_crop",
+            () -> new KohlrabiCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

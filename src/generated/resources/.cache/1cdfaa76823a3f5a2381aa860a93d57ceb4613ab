@@ -1,4 +1,4 @@
-// 1.21	2025-04-21T00:18:24.2340474	Item Models: deadeyesurvivalmod
+// 1.21	2025-04-23T22:14:47.3967354	Item Models: deadeyesurvivalmod
 cda8ab1d7accd13e08f4718016cf6277525a5907 assets/deadeyesurvivalmod/models/item/aurora_ashes.json
 5f5360741755e406a37a366a6e325a962035f3eb assets/deadeyesurvivalmod/models/item/davite.json
 9c02c29b937936d9b0c73c96cefe2ed38c2ec77a assets/deadeyesurvivalmod/models/item/davite_axe.json
@@ -16,4 +16,5 @@ f9a56cf2e9c9f8c939b12786ac459c4ea15062b6 assets/deadeyesurvivalmod/models/item/d
 fd5aafb24b8a526dcf411921b8e0761318d3875b assets/deadeyesurvivalmod/models/item/davite_sword.json
 6dae28c52465f655413993bd6da20445067c800e assets/deadeyesurvivalmod/models/item/davite_wall.json
 2d784896502835cff663c9f836c9919e93373655 assets/deadeyesurvivalmod/models/item/kohlrabi.json
+b57d6ec11cb542307ea5005e58b415785b2f6d8c assets/deadeyesurvivalmod/models/item/kohlrabi_seeds.json
 aeb8f0129db172802d7f851074d781429dfc04eb assets/deadeyesurvivalmod/models/item/raw_davite.json

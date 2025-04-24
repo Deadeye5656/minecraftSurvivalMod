@@ -45,6 +45,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         armorItem(ModItems.DAVITE_CHESTPLATE);
         armorItem(ModItems.DAVITE_LEGGINGS);
         armorItem(ModItems.DAVITE_BOOTS);
+
+        basicItem(ModItems.KOHLRABI_SEEDS.get());
     }
 
     private void armorItem(RegistryObject<Item> itemRegistryObject) {

@@ -1,27 +1,27 @@
-[23Apr2025 21:39:44.737] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\david\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, deadeyesurvivalmod, --all, --output, C:\Users\david\OneDrive\Desktop\Forge\DeadeyeSurvivalMod\src\generated\resources, --existing, C:\Users\david\OneDrive\Desktop\Forge\DeadeyeSurvivalMod\src\main\resources]
-[23Apr2025 21:39:44.739] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.6+7-LTS
-[23Apr2025 21:39:44.740] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.6 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[23Apr2025 21:39:44.809] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
-[23Apr2025 21:39:44.869] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/david/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
-[23Apr2025 21:39:45.478] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[23Apr2025 21:39:45.958] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\david\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, deadeyesurvivalmod, --all, --output, C:\Users\david\OneDrive\Desktop\Forge\DeadeyeSurvivalMod\src\generated\resources, --existing, C:\Users\david\OneDrive\Desktop\Forge\DeadeyeSurvivalMod\src\main\resources]
-[23Apr2025 21:39:49.206] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.33, for MC 1.21 with MCP 20240613.102039
-[23Apr2025 21:39:49.206] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.33 Initialized
-[23Apr2025 21:39:49.225] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[23Apr2025 21:39:49.582] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [deadeyesurvivalmod]
-[23Apr2025 21:39:49.630] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/david/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_2024.11.17-1.21.1/forge-1.21-51.0.33_mapped_parchment_2024.11.17-1.21.1-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
-[23Apr2025 21:39:49.631] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/david/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_2024.11.17-1.21.1/forge-1.21-51.0.33_mapped_parchment_2024.11.17-1.21.1-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
-[23Apr2025 21:39:49.730] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[23Apr2025 21:39:49.841] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 109 ms
-[23Apr2025 21:39:49.841] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[23Apr2025 21:39:49.867] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 26 ms
-[23Apr2025 21:39:49.868] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id deadeyesurvivalmod
-[23Apr2025 21:39:49.886] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id deadeyesurvivalmod finished after 18 ms
-[23Apr2025 21:39:49.886] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id deadeyesurvivalmod
-[23Apr2025 21:39:49.888] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id deadeyesurvivalmod finished after 1 ms
-[23Apr2025 21:39:49.888] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: deadeyesurvivalmod
-[23Apr2025 21:39:49.898] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: deadeyesurvivalmod finished after 9 ms
-[23Apr2025 21:39:49.898] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: deadeyesurvivalmod
-[23Apr2025 21:39:49.980] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: deadeyesurvivalmod finished after 82 ms
-[23Apr2025 21:39:49.980] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 250 ms
-[23Apr2025 21:39:49.987] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 135, old count: 135, new count: 136, removed stale: 0, written: 0
+[23Apr2025 22:14:42.104] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\david\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, deadeyesurvivalmod, --all, --output, C:\Users\david\OneDrive\Desktop\Forge\DeadeyeSurvivalMod\src\generated\resources, --existing, C:\Users\david\OneDrive\Desktop\Forge\DeadeyeSurvivalMod\src\main\resources]
+[23Apr2025 22:14:42.106] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.6+7-LTS
+[23Apr2025 22:14:42.107] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.6 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[23Apr2025 22:14:42.175] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[23Apr2025 22:14:42.235] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/david/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
+[23Apr2025 22:14:42.810] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[23Apr2025 22:14:43.306] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\david\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, deadeyesurvivalmod, --all, --output, C:\Users\david\OneDrive\Desktop\Forge\DeadeyeSurvivalMod\src\generated\resources, --existing, C:\Users\david\OneDrive\Desktop\Forge\DeadeyeSurvivalMod\src\main\resources]
+[23Apr2025 22:14:46.523] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.33, for MC 1.21 with MCP 20240613.102039
+[23Apr2025 22:14:46.523] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.33 Initialized
+[23Apr2025 22:14:46.548] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[23Apr2025 22:14:46.933] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [deadeyesurvivalmod]
+[23Apr2025 22:14:46.983] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/david/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_2024.11.17-1.21.1/forge-1.21-51.0.33_mapped_parchment_2024.11.17-1.21.1-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[23Apr2025 22:14:46.984] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/david/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_2024.11.17-1.21.1/forge-1.21-51.0.33_mapped_parchment_2024.11.17-1.21.1-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
+[23Apr2025 22:14:47.114] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[23Apr2025 22:14:47.240] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 125 ms
+[23Apr2025 22:14:47.240] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[23Apr2025 22:14:47.277] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 36 ms
+[23Apr2025 22:14:47.277] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id deadeyesurvivalmod
+[23Apr2025 22:14:47.296] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id deadeyesurvivalmod finished after 19 ms
+[23Apr2025 22:14:47.296] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id deadeyesurvivalmod
+[23Apr2025 22:14:47.298] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id deadeyesurvivalmod finished after 1 ms
+[23Apr2025 22:14:47.298] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: deadeyesurvivalmod
+[23Apr2025 22:14:47.304] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: deadeyesurvivalmod finished after 5 ms
+[23Apr2025 22:14:47.304] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: deadeyesurvivalmod
+[23Apr2025 22:14:47.393] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: deadeyesurvivalmod finished after 89 ms
+[23Apr2025 22:14:47.393] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 280 ms
+[23Apr2025 22:14:47.403] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 145, old count: 135, new count: 146, removed stale: 0, written: 10

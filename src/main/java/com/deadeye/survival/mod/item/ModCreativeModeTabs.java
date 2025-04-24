@@ -49,6 +49,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.DAVITE_LEGGINGS.get());
                         output.accept(ModItems.DAVITE_BOOTS.get());
                         output.accept(ModItems.DAVES_BOW.get());
+                        output.accept(ModItems.KOHLRABI_SEEDS.get());
                     }).build());
 
     public static void register(IEventBus eventBus){
