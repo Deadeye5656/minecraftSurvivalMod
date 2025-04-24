@@ -50,6 +50,13 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.DAVITE_BOOTS.get());
                         output.accept(ModItems.DAVES_BOW.get());
                         output.accept(ModItems.KOHLRABI_SEEDS.get());
+                        output.accept(ModBlocks.WALNUT_LOG.get());
+                        output.accept(ModBlocks.WALNUT_WOOD.get());
+                        output.accept(ModBlocks.STRIPPED_WALNUT_LOG.get());
+                        output.accept(ModBlocks.STRIPPED_WALNUT_WOOD.get());
+                        output.accept(ModBlocks.WALNUT_PLANKS.get());
+                        output.accept(ModBlocks.WALNUT_SAPLING.get());
+                        output.accept(ModBlocks.WALNUT_LEAVES.get());
                     }).build());
 
     public static void register(IEventBus eventBus){

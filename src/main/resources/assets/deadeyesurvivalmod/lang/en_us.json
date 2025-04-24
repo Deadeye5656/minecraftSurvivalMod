@@ -45,4 +45,13 @@
   "tooltip.deadeyesurvivalmod.chisel": "Press §eShift§r for more Information!",
 
   "tooltip.deadeyesurvivalmod.kohlrabi": "This tastes GREAT!",
+
+  "block.deadeyesurvivalmod.walnut_log": "Walnut Log",
+  "block.deadeyesurvivalmod.walnut_planks": "Walnut Planks",
+  "block.deadeyesurvivalmod.walnut_wood": "Walnut Wood",
+  "block.deadeyesurvivalmod.stripped_walnut_log": "Stripped Walnut Log",
+  "block.deadeyesurvivalmod.stripped_walnut_wood": "Stripped Walnut Wood",
+  "block.deadeyesurvivalmod.walnut_leaves": "Walnut Leaves",
+
+  "block.deadeyesurvivalmod.walnut_sapling": "Walnut Sapling"
 }

@@ -47,6 +47,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         armorItem(ModItems.DAVITE_BOOTS);
 
         basicItem(ModItems.KOHLRABI_SEEDS.get());
+        saplingItem(ModBlocks.WALNUT_SAPLING);
+    }
+
+    private ItemModelBuilder saplingItem(RegistryObject<Block> item) {
+        return withExistingParent(item.getId().getPath(),
+                ResourceLocation.parse("item/generated")).texture("layer0",
+                ResourceLocation.fromNamespaceAndPath(DeadeyeMod.MOD_ID,"block/" + item.getId().getPath()));
     }
 
     private void armorItem(RegistryObject<Item> itemRegistryObject) {

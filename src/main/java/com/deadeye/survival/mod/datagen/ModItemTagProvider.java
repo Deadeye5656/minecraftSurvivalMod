@@ -1,6 +1,7 @@
 package com.deadeye.survival.mod.datagen;
 
 import com.deadeye.survival.mod.DeadeyeMod;
+import com.deadeye.survival.mod.block.ModBlocks;
 import com.deadeye.survival.mod.item.ModItems;
 import com.deadeye.survival.mod.util.ModTags;
 import net.minecraft.core.HolderLookup;
@@ -34,5 +35,14 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.DAVITE_CHESTPLATE.get())
                 .add(ModItems.DAVITE_LEGGINGS.get())
                 .add(ModItems.DAVITE_BOOTS.get());
+
+        tag(ItemTags.LOGS_THAT_BURN)
+                .add(ModBlocks.WALNUT_LOG.get().asItem())
+                .add(ModBlocks.WALNUT_WOOD.get().asItem())
+                .add(ModBlocks.STRIPPED_WALNUT_LOG.get().asItem())
+                .add(ModBlocks.STRIPPED_WALNUT_WOOD.get().asItem());
+
+        tag(ItemTags.PLANKS)
+                .add(ModBlocks.WALNUT_PLANKS.get().asItem());
     }
 }
