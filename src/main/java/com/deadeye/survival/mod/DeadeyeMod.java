@@ -11,10 +11,7 @@ import com.mojang.logging.LogUtils;
 import com.deadeye.survival.mod.entity.ModEntities;
 import com.deadeye.survival.mod.entity.client.TriceratopsRenderer;
 import net.minecraft.client.renderer.entity.EntityRenderers;
-import net.minecraft.world.entity.ai.goal.AvoidEntityGoal;
-import net.minecraft.world.entity.ai.goal.FloatGoal;
-import net.minecraft.world.entity.animal.Animal;
-import net.minecraft.world.entity.animal.Chicken;
+import com.deadeye.survival.mod.entity.ai.goal.CustomAvoidEntityGoal;
 import net.minecraft.world.entity.animal.Pig;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -94,6 +91,14 @@ public class DeadeyeMod {
 
     }
 
+    @SubscribeEvent
+    public void onEntityJoinWorld(EntityJoinLevelEvent event) {
+        if (event.getEntity() instanceof Pig) {
+            Pig animal = (Pig) event.getEntity();
+            CustomAvoidEntityGoal<Player> avoidPlayerGoal = new CustomAvoidEntityGoal<>(animal, Player.class, 20.0F, 10.0F, 2.0D, 2.5D);
+            animal.goalSelector.addGoal(0, avoidPlayerGoal);
+        }
+    }
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents
