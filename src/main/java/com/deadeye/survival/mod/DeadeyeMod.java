@@ -8,11 +8,21 @@ import com.deadeye.survival.mod.item.ModItems;
 import com.deadeye.survival.mod.sound.ModSounds;
 import com.deadeye.survival.mod.util.ModItemProperties;
 import com.mojang.logging.LogUtils;
+import com.deadeye.survival.mod.entity.ModEntities;
+import com.deadeye.survival.mod.entity.client.TriceratopsRenderer;
+import net.minecraft.client.renderer.entity.EntityRenderers;
+import net.minecraft.world.entity.ai.goal.AvoidEntityGoal;
+import net.minecraft.world.entity.ai.goal.FloatGoal;
+import net.minecraft.world.entity.animal.Animal;
+import net.minecraft.world.entity.animal.Chicken;
+import net.minecraft.world.entity.animal.Pig;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.ComposterBlock;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
+import net.minecraftforge.event.entity.EntityJoinLevelEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -48,6 +58,7 @@ public class DeadeyeMod {
         ModDataComponentTypes.register(modEventBus);
         ModSounds.register(modEventBus);
         ModEffects.register(modEventBus);
+        ModEntities.register(modEventBus);
 
 
         // Register the item to a creative tab
@@ -91,6 +102,7 @@ public class DeadeyeMod {
         public static void onClientSetup(FMLClientSetupEvent event)
         {
             ModItemProperties.addCustomItemProperties();
+            EntityRenderers.register(ModEntities.TRICERATOPS.get(), TriceratopsRenderer::new);
         }
     }
 }
