@@ -48,6 +48,8 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         basicItem(ModItems.KOHLRABI_SEEDS.get());
         saplingItem(ModBlocks.WALNUT_SAPLING);
+
+        withExistingParent(ModItems.TRICERATOPS_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
     }
 
     private ItemModelBuilder saplingItem(RegistryObject<Block> item) {

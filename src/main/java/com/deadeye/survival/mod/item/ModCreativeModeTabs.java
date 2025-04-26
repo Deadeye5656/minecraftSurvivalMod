@@ -57,6 +57,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.WALNUT_PLANKS.get());
                         output.accept(ModBlocks.WALNUT_SAPLING.get());
                         output.accept(ModBlocks.WALNUT_LEAVES.get());
+                        output.accept(ModItems.TRICERATOPS_SPAWN_EGG.get());
                     }).build());
 
     public static void register(IEventBus eventBus){

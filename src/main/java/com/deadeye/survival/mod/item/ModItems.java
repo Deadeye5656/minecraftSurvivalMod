@@ -5,6 +5,8 @@ import com.deadeye.survival.mod.block.ModBlocks;
 import com.deadeye.survival.mod.item.custom.ChiselItem;
 import com.deadeye.survival.mod.item.custom.FuelItem;
 import com.deadeye.survival.mod.item.custom.HammerItem;
+import com.deadeye.survival.mod.entity.ModEntities;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import com.deadeye.survival.mod.item.custom.ModArmorItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -77,7 +79,8 @@ public class ModItems {
     public static final RegistryObject<Item> DAVES_BOW = ITEMS.register("daves_bow",
             () -> new BowItem(new Item.Properties().durability(500)));
 
-
+    public static final RegistryObject<Item> TRICERATOPS_SPAWN_EGG = ITEMS.register("triceratops_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.TRICERATOPS, 0x53524b, 0xdac741, new Item.Properties()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
