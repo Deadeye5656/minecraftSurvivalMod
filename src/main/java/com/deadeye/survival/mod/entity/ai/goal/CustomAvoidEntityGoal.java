@@ -27,12 +27,7 @@ public class CustomAvoidEntityGoal<T extends LivingEntity> extends AvoidEntityGo
                 adjustedAvoidDistance -= this.extraDistanceToCrouch;
             }
 
-            if (this.mob.distanceToSqr(player) < (adjustedAvoidDistance * adjustedAvoidDistance)) {
-                LOGGER.info("RUNNNN");
-                return true;
-            } else {
-                return false;
-            }
+            return this.mob.distanceToSqr(player) < (adjustedAvoidDistance * adjustedAvoidDistance);
         }
         return super.canUse();
     }
