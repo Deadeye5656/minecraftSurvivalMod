@@ -2,10 +2,12 @@ package com.deadeye.survival.mod.event;
 
 import com.deadeye.survival.mod.DeadeyeMod;
 import com.deadeye.survival.mod.item.ModItems;
+import net.minecraft.world.entity.player.Player;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.ComputeFovModifierEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.event.entity.living.LivingBreatheEvent;
 
 @Mod.EventBusSubscriber(modid = DeadeyeMod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE, value = Dist.CLIENT)
 public class ModClientEvents {
@@ -22,6 +24,16 @@ public class ModClientEvents {
             }
             fovModifier *= 1f - deltaTicks * 0.15f;
             event.setNewFovModifier(fovModifier);
+        }
+    }
+
+    @SubscribeEvent
+    public static void onLivingBreath(LivingBreatheEvent event) {
+        if ((event.getEntity() instanceof Player player)) {
+            if (player.isInWater()){
+                event.setConsumeAirAmount(5);
+                event.setCanBreathe(false);
+            }
         }
     }
 }
